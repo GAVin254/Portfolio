@@ -21,7 +21,7 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
     padding-bottom: 1%;
-    background-color: #a35151;
+    background-color: #A35151;
     position: relative;
    
 }
@@ -40,7 +40,7 @@ nav ul li{
     padding: 10px 25px;
 }
 nav ul li a{
-    color:rgb(29, 7, 7);
+    color:#443431;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -113,7 +113,7 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: rgb(161, 103, 103);
+    background-color: #A16767;
 }
 .about img{
     height: auto;
@@ -167,16 +167,18 @@ button:hover{
     border: 2px solid rgb(41, 38, 38);
 }
 .interest{
-    background: #a35151;
+    background: #5c3434;
     width: 100%;
     padding: 100px 0px;
 }
+
 .title h2{
     color:aliceblue;
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
+    
 
 }
 .box{
@@ -229,6 +231,53 @@ h5{
 .card .button:hover{
     background-color: transparent;
     border: 2px solid rgb(41, 38, 38);
+}
+.inspiration{
+    background-color: #A35151;
+    width: 100%;
+    padding: 100px 0px;
+}
+.inspiration .title h2{
+    color:rgb(223, 230, 236);
+    font-size: 75px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    display: flow-root;
+}
+.inspiration .card{
+    height:450px;
+    width: 350px;
+    padding: 18px 32px;
+    background: rgb(233, 143, 9);
+    border-radius:40%;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.inspiration .pra p{
+    color: rgb(20, 19, 19);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    margin-bottom: 25px;
+
+}
+.inspiration .card h5{
+    color: rgb(18, 2, 46);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.inspiration .card .button{
+    background-color:rgb(41, 38, 38) ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: .3s
 }
 .contact-me{
     width: 100%;
