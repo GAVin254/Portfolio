@@ -407,7 +407,7 @@ label{
     display: block;
     margin: 0 auto;
     color: #828282;
-    width: 50%%;
+    width: 50%;
 }
 .contact input, textarea{
     background-color: transparent;
@@ -423,6 +423,7 @@ label{
     margin-top: 30px;
     cursor: pointer;
     transition: all .3s ease;
+    border-radius: 25%;
 }
 
 .contact input[type=submit]:hover{
@@ -432,7 +433,7 @@ color: #1b1c1e;
 .contact input, textarea{
     color: white;
     font-size: 18px;
-    padding: 10px;
+    padding: 4px;
 }
 .contact input:focus,
 textarea:focus{
