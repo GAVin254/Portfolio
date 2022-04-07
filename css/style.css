@@ -370,3 +370,77 @@ font-size: 20px;
     font-size: 14px;
 
 }
+/* contact form*/
+.contact h1{
+    font-family: 'playfair Display', serif;
+    font-size: 59px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+.contact p{
+    color: aliceblue;
+
+}
+p, 
+input, 
+textarea,
+label{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;
+}
+.contact form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+
+}
+.contact input, textarea, label{
+    display: block;
+    margin: 0 auto;
+    color: #828282;
+    width: 100%;
+}
+.contact input, textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #828282;
+}
+.contact input[type=submit]{
+    background-color:#545557;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.contact input[type=submit]:hover{
+background-color: pink;
+color: #1b1c1e;
+}
+.contact input, textarea{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.contact input:focus,
+textarea:focus{
+    outline: 1px solid #818181;
+}
+.contact a{
+    color: #828282;
+    font-style: italic;
+}
+.contact a:hover{
+    color: aqua;
+}
