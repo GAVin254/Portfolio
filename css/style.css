@@ -394,6 +394,7 @@ label{
     max-width: 1320px;
     margin: 0 auto;
     padding: 5%;
+    background-color:#5C3434;
 }
 .contact form{
     max-width: 500px;
@@ -406,7 +407,7 @@ label{
     display: block;
     margin: 0 auto;
     color: #828282;
-    width: 100%;
+    width: 50%%;
 }
 .contact input, textarea{
     background-color: transparent;
